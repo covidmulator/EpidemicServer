@@ -1,0 +1,10 @@
+{
+  "name": "EpidemicServer",
+  "version": "1.0.0",
+  "description": "Epidemic RESTful API Server with node, typescript",
+  "main": "index.ts",
+  "repository": "https://github.com/covidmulator/EpidemicServer",
+  "author": "gtg7784 <gtg7784@naver.com>",
+  "license": "MIT",
+  "private": false
+}
