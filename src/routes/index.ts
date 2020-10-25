@@ -20,7 +20,7 @@ router.post(
 )
 
 router.get(
-  '/matrix',
+  '/matrix/:type',
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { type } = req.params;
