@@ -8,7 +8,7 @@ export interface MatrixModel {
 
 const MatrixSchema: Schema<MatrixModel> = new Schema(
   {
-    type: { type: String; required: true },
+    type: { type: String, required: true },
     matrix: [[{ type: Number, required: true }]]
   },
   { timestamp: true }
