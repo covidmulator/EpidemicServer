@@ -31,6 +31,8 @@ app.use(compress())
 
 app.use(helmet())
 
+app.use(cors());
+
 app.use("/api", routes)
 
 app.listen(3000, () => console.log(`EpidemicServer app listening at http://localhost:3000`))
