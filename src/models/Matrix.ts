@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose'
+import mongoose, { Schema } from 'mongoose';
 
 export interface MatrixModel {
   _id: string;
@@ -11,7 +11,7 @@ const MatrixSchema: Schema<MatrixModel> = new Schema(
     type: { type: String, required: true },
     matrix: [[{ type: Number, required: true }]]
   },
-  { timestamp: true }
-)
+  { timestamp: true },
+);
 
-export default mongoose.model<MatrixModel>("Matrix", MatrixSchema)
+export default mongoose.model<MatrixModel>('Matrix', MatrixSchema);
