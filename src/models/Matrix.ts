@@ -3,7 +3,7 @@ import mongoose, { Schema } from 'mongoose'
 export interface MatrixModel {
   _id: string;
   type: string;
-  matrix: Array<Array<number>>;
+  matrix: Array<number[]>;
 }
 
 const MatrixSchema: Schema<MatrixModel> = new Schema(
